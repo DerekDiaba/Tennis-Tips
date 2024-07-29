@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    color: rgb(241, 247, 246);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+main.gallery-page {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.photo {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.photo-info {
+    margin-top: 30px;
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-info h2 {
+    font-size: 2rem;
+    color: #003366;
+}
+
+.photo-info p {
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color for readability */
+}
+
+header {
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+ul li a:hover, ul li a.active {
+    text-decoration: underline;
+    background-color: #1a3a66; /* Change background color on hover and active */
+    border-radius: 4px; /* Optional: rounded corners for links */
+    padding: 5px 10px; /* Optional: add padding for better visual effect */
+}
+
+main {
+    padding: 20px;
+    background-color: #e0f7fa; /* Light teal background for the main content */
+    color: #333333; /* Dark gray text color for readability */
+    border-radius: 8px; /* Optional: rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+    margin: 20px;
+    max-width: 800px;
+    margin: 20px auto; /* Center align the main content */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #003366; /* Dark blue color for main heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #003366; /* Dark blue color for section headings */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #003366; /* Dark blue border for section headings */
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question h2 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a3a66; /* Lighter blue on hover */
+}
+
+#result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2rem; /* Adjust heading size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* Adjust section heading size for smaller screens */
+    }
+
+    button {
+        width: 100%; /* Full-width button on smaller screens */
+        padding: 15px;
+    }
+}
+
